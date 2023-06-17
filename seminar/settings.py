@@ -60,12 +60,12 @@ CSRF_TRUSTED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:3000",
     "https://port-0-snulion-week12-deploy-django-dihik2mlizm9u3z.sel4.cloudtype.app",
-    "https://web-snulion-week12-deploy-react-dihik2mlizm9u3z.sel4.cloudtype.app/",
+    "https://web-snulion-week12-deploy-react-dihik2mlizm9u3z.sel4.cloudtype.app",
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:3000",
-    "https://web-snulion-week12-deploy-react-dihik2mlizm9u3z.sel4.cloudtype.app/",
+    "https://web-snulion-week12-deploy-react-dihik2mlizm9u3z.sel4.cloudtype.app",
 ]
 CORS_ALLOW_CREDENTIALS = True  # cookie를 주고받으려면 얘를 True로 설정해야 해요.
 CORS_ALLOW_HEADERS = (
